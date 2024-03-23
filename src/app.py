@@ -6,6 +6,8 @@ from services.menu_builder import MenuBuilder
 app = FastAPI(title="Restaurante Chapa Quente")
 menu_builder = MenuBuilder()
 
+"""Comentário para commit"""
+
 
 restriction_options = {k: {"value": k} for k in Restriction._member_names_}
 
